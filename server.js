@@ -30,7 +30,7 @@ const io= require('socket.io')(server);
 app.use(express.static(path.join(__dirname,"public")));
 
 // khai báo PORT (Nếu không có cổng process.env.PORT thì dùng POR 3000 )
-const PORT =3000 || process.env.PORT 
+const PORT =process.env.PORT ||  3000
 
 //1. Run server
 //@ retrun arrow function & http.Server nếu thành công
