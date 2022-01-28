@@ -1,5 +1,5 @@
 // STEP2: Đăng kí socket.io phía client và connect lên server
-const socket =io("http://localhost:3000");
+const socket =io("https://internetofthingproject.herokuapp.com");
 
 //1. Lấy dữ liệu trong box element 'chat-form'
 const chatForm= document.getElementById('chat-form'); 
